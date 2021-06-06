@@ -1,0 +1,8 @@
+Ejercicio #5
+
+Algoritmo numeroSiguiente
+	Escribir 'Ingrese el numero'
+	Leer p
+	k <- p+1
+	Escribir 'El numero que sigue de ',p,' es: ',k
+FinAlgoritmo
