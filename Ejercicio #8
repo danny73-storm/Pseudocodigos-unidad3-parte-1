@@ -1,0 +1,10 @@
+Ejercicio #8
+
+Algoritmo promedioNumeros
+	Escribir 'Ingrese los numeros'
+	Leer p
+	Leer l
+	Leer s
+	k <- (p+l+s)/3
+	Escribir 'El promedio de los numeros ingresados son: ',k
+FinAlgoritmo
