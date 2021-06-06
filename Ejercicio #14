@@ -1,0 +1,13 @@
+Ejercicio #14
+
+Algoritmo DivisivilidadNuemeros
+	Escribir 'Ingrese el primer numero'
+	Leer p
+	Escribir 'Ingrese el segundo numero'
+	Leer l
+	Si p MOD l==0 Entonces
+		Escribir 'Es divisible'
+	SiNo
+		Escribir 'No es divisible'
+	FinSi
+FinAlgoritmo
