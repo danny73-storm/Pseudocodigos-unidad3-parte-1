@@ -1,0 +1,10 @@
+Ejercicio #1
+
+Algoritmo SumaCantidades
+	Escribir 'Ingrese el primer numero'
+	Leer p
+	Escribir 'Ingrese el segundo numero'
+	Leer m
+	K <- p+m
+	Escribir 'La suma de las cantidades son: ',K
+FinAlgoritmo
