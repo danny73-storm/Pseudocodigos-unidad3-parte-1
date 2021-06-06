@@ -1,0 +1,8 @@
+Ejercicio #7
+
+Algoritmo aleatorio2Numero
+	k <- ALEATORIO(10,50)
+	Escribir 'El numero generado es: ',k
+	j <- k-((k*15)/100)
+	Escribir 'El numero ',k,' su desminucion del 15% es: ',j
+FinAlgoritmo
