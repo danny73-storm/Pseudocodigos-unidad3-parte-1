@@ -1,0 +1,12 @@
+Ejercicio #10
+
+Algoritmo areaPerimetroRec
+	Escribir 'Ingrese la base del rectangulo'
+	Leer p
+	Escribir 'Ingrese la altura del rectangulo'
+	Leer l
+	k <- p*l
+	Escribir 'El area del rectangulo es: ',k,' u^2'
+	s <- 2*p+2*l
+	Escribir 'El perimetro del rectangulo es: ',s,' u'
+FinAlgoritmo
