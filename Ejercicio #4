@@ -1,0 +1,10 @@
+Ejercicio #4
+
+Algoritmo potenciaNumero
+	Escribir 'Ingrese el numero'
+	Leer p
+	k <- p*p
+	Escribir 'El cuadrado de ',p,' es: ',k
+	j <- p*p*p
+	Escribir 'El cubo de ',p,' es: ',j
+FinAlgoritmo
