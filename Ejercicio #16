@@ -1,0 +1,21 @@
+Ejercicio #16 
+
+Algoritmo numeroMayor
+	Escribir 'Ingrese los numeros'
+	Leer p
+	Leer l
+	Leer s
+	Si p>l Entonces
+		Si p>s Entonces
+			Escribir 'El numero mayor de los tres es: ',p
+		SiNo
+			Escribir 'El numero mayor de los tres es: ',s
+		FinSi
+	SiNo
+		Si l>s Entonces
+			Escribir 'El numero mayor de los tres es: ',l
+		SiNo
+			Escribir 'El numero mayor de los tres es: ',s
+		FinSi
+	FinSi
+FinAlgoritmo
