@@ -1,0 +1,18 @@
+Ejercicio #13
+
+Algoritmo volumenCilindro
+	Escribir 'Ingrese el valor del radio: '
+	Leer p
+	Escribir 'Ingrese el valor de la altura: '
+	Leer l
+	Si p>0; Entonces
+		Si l>0 Entonces
+			s <- pi*(p^2)*l
+			Escribir 'El volumen del cilindro es de: ',s
+		SiNo
+			Escribir 'La altura ingresada no es valor positivo'
+		FinSi
+	SiNo
+		Escribir 'El radio no es un valor positivo'
+	FinSi
+FinAlgoritmo
