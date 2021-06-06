@@ -1,0 +1,13 @@
+Ejercicio #9 
+
+Algoritmo intercambioValores
+	Escribir 'Ingrese la primera palabra'
+	Leer p
+	Escribir 'Ingrese la segunda palabra'
+	Leer l
+	k <- p
+	p <- l
+	l <- k
+	Escribir 'La primera palabra es: ',p
+	Escribir 'La segunda palabra es: ',l
+FinAlgoritmo
