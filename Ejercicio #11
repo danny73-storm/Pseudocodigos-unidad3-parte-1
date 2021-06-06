@@ -1,0 +1,17 @@
+Ejercicio #11
+
+Algoritmo convertidorUnidades
+	Escribir 'Ingrese valor a convertir'
+	Leer p
+	Escribir ''
+	Escribir 'El valor ',p,' cm equivale a:'
+	Escribir ''
+	k <- p*(1.09361/100)
+	Escribir k,' yardas'
+	j <- p/100
+	Escribir j,' metros'
+	h <- p*(1/100)*(1/0.3048)
+	Escribir h,' ft  (pies)'
+	g <- p*(1/100)*(1/0.0254)
+	Escribir g,' in  (pulgadas)'
+FinAlgoritmo
