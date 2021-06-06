@@ -1,0 +1,10 @@
+Ejercicio #3
+
+Algoritmo aumentoNumero
+	Escribir 'Ingrese el numero que se quiere aumentar'
+	Leer p
+	k <- 2*p
+	Escribir 'El doble de ',p,' es: ',k
+	j <- 3*p
+	Escribir 'El triple de ',p,' es: ',j
+FinAlgoritmo
