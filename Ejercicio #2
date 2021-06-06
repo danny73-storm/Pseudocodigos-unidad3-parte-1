@@ -1,0 +1,9 @@
+Ejercicio #2
+
+Algoritmo CapitalPais
+	Escribir 'Ingrese el pais'
+	Leer p
+	Escribir 'Ingrese la capital'
+	Leer l
+	Escribir l,' es la capital de ',p
+FinAlgoritmo
