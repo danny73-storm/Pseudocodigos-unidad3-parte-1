@@ -1,0 +1,8 @@
+Ejercicio #12 
+
+Algoritmo convertidorTemperatura
+	Escribir 'Ingrese la temperatura'
+	Leer p
+	k <- (p*(9/5))+32
+	Escribir 'La temperaura ',p,'°C es de: ',k,'°F'
+FinAlgoritmo
