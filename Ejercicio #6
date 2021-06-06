@@ -1,0 +1,8 @@
+Ejercicio #6 
+
+Algoritmo aleatorio2Numero
+	k <- ALEATORIO(0,200)
+	Escribir 'El numero generado es: ',k
+	j <- k+((k*30)/100)
+	Escribir 'El numero ',k,' su aumento del 30% es: ',j
+FinAlgoritmo
