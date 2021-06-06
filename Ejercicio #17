@@ -1,0 +1,21 @@
+Ejercicio #17
+
+Algoritmo tipoTriangulo
+	Escribir 'Ingrese las dimenciones del triangulo que desea conocer su tipo:'
+	Leer p
+	Leer l
+	Leer s
+	Si p==l Entonces
+		Si s==p Entonces
+			Escribir 'Las dimenciones ingresadas corresponden a un triangulo EQUILATERO'
+		SiNo
+			Escribir 'Las dimenciones ingresadas corresponden a un triangulo ISOCELES'
+		FinSi
+	SiNo
+		Si (s<>l) Y (s<>p) Entonces
+			Escribir 'Las dimenciones ingresadas corresponden a un triangulo ESCALENO'
+		SiNo
+			Escribir 'Las dimenciones ingresadas corresponden a un triangulo ISOCELES'
+		FinSi
+	FinSi
+FinAlgoritmo
