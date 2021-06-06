@@ -1,0 +1,15 @@
+Ejercicio #15
+
+Algoritmo tipoValorNumero
+	Escribir 'Ingrese el numero'
+	Leer p
+	Si p>0 Entonces
+		Escribir 'El numero ingresado es positivo'
+	SiNo
+		Si p==0 Entonces
+			Escribir 'El numero ingresado es nulo'
+		SiNo
+			Escribir 'El numero ingresado es negativo'
+		FinSi
+	FinSi
+FinAlgoritmo 
