@@ -1,0 +1,18 @@
+Ejercicio #19 
+
+Algoritmo multiplo5
+	k <- Aleatorio(1,1000)
+	Escribir 'El numero generado es:',k
+	Si (k MOD 5 == Entero ) Entonces
+		Si k<125 Entonces
+			Escribir 'Correcto'
+		SiNo
+			
+			Escribir 'El numero es mayor de los primeros 25 multiplos'
+		Fin Si
+	SiNo
+		Escribir 'El numero ingresado no es multiplo de 5'
+	Fin Si
+	
+	
+FinAlgoritmo
