@@ -1,0 +1,20 @@
+Ejercicio #18 
+
+Algoritmo sumaDigitos
+	Definir sum,dig1,dig2,dig3,dig4,p Como Entero
+	Escribir 'Digite la catidad de 4 digitos';
+	leer p
+	si p<0
+		p=p*(-1)
+	FinSi
+	Si p>-999 y p<9999 Entonces
+		dig1=p-trunc(p/10)*10
+		dig2=dig1-trunc(p/10)*10+p
+		dig3=p-trunc(p/10000)*10000
+		dig4=trunc(p/10)
+		sum= dig1+dig2+dig3+dig4
+		Escribir ' d1= ',dig1,' d2= ',dig2,' d3= ',dig3 ,' d4= ',dig4 ,'. suma = ',sum 
+	SiNo
+		Escribir 'El numero debe ser maximo de 4 digitos'
+	Fin Si
+FinAlgoritmo
